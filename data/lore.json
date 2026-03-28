@@ -1,0 +1,76 @@
+{
+  "mapMeta": {
+    "title": "Valle Seriana Storica",
+    "description": "Percorso geografico semplificato ma coerente lungo il fondovalle Serio, dalla bassa valle all'alta valle."
+  },
+  "locations": [
+    {
+      "id": "albino",
+      "name": "Albino",
+      "x": 170,
+      "y": 520,
+      "periods": [
+        {
+          "epoch": "Età Romana",
+          "text": "Corridoio viario verso la valle interna; tracce di romanizzazione diffuse nell'area bergamasca."
+        },
+        {
+          "epoch": "Età Industriale",
+          "text": "Sviluppo tessile e manifatturiero nell'Ottocento-Novecento lungo il Serio."
+        }
+      ],
+      "bergamasco": "Ól Sère is è stàt la strada de laurà e de passa."
+    },
+    {
+      "id": "clusone",
+      "name": "Clusone",
+      "x": 510,
+      "y": 350,
+      "periods": [
+        {
+          "epoch": "Tardo Medioevo",
+          "text": "Centro artistico e religioso di rilievo; affreschi e architetture civiche testimoniano il ruolo della comunità."
+        },
+        {
+          "epoch": "Età Moderna",
+          "text": "Nodo commerciale e culturale dell'altopiano, tra valle e valichi."
+        }
+      ],
+      "bergamasco": "A Clüsù l'istòria la parla coi mür e coi piasse."
+    },
+    {
+      "id": "gromo",
+      "name": "Gromo",
+      "x": 620,
+      "y": 290,
+      "periods": [
+        {
+          "epoch": "Medioevo",
+          "text": "Celebre per lavorazione dei metalli e armeria storica, con ruolo economico strategico."
+        },
+        {
+          "epoch": "Rinascimento",
+          "text": "Consolidamento urbano e rapporti con il territorio veneto-bergamasco."
+        }
+      ],
+      "bergamasco": "Gròm l'era paìs de fér e de maèstr."
+    },
+    {
+      "id": "valbondione",
+      "name": "Valbondione",
+      "x": 770,
+      "y": 180,
+      "periods": [
+        {
+          "epoch": "Età alpina tradizionale",
+          "text": "Comunità d'alta valle legata a pascoli, transumanza e sfruttamento stagionale delle risorse montane."
+        },
+        {
+          "epoch": "Età contemporanea",
+          "text": "Area simbolo del paesaggio seriano, porta per i rilievi più alti e cascate del Serio."
+        }
+      ],
+      "bergamasco": "A Valbundiù, tra aqua e órbis, la muntagna la comanda."
+    }
+  ]
+}

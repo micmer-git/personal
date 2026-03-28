@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valle Seriana Chronicles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="game-panel">
+        <h1>Valle Seriana Chronicles</h1>
+        <p class="subtitle">
+          Viaggio pixel-art da Bergamo alla Presolana, tra epoche storiche, dialetto bergamasco e geografia reale della valle.
+        </p>
+        <canvas id="game" width="960" height="640" aria-label="Mappa giocabile della Valle Seriana"></canvas>
+        <div class="controls">
+          <span>🎮 Muovi: WASD / Frecce</span>
+          <span>🗺️ Interagisci: E</span>
+          <span>🧭 Mappa ispirata all'asse Nembro → Clusone → Valbondione</span>
+        </div>
+      </section>
+
+      <aside class="lore-panel">
+        <h2>Archivio Erudito Seriano</h2>
+        <div id="locationInfo" class="location-info"></div>
+
+        <h3>Interroga l'Archivista (LLM)</h3>
+        <p class="tiny">Backend pronto per Groq + Llama (fallback offline se manca chiave API).</p>
+        <textarea id="prompt" rows="4" placeholder="Es: Raccontami il medioevo a Gromo e parlami dell'estrazione del ferro."></textarea>
+        <button id="askBtn">Parla con l'Archivista</button>
+        <pre id="llmOutput" class="llm-output">Nessuna domanda inviata.</pre>
+
+        <h3>Condivisione</h3>
+        <p class="tiny">Pubblica questo progetto su Render, Fly.io o Railway e condividi il link: sarà giocabile da chiunque.</p>
+      </aside>
+    </main>
+
+    <script src="game.js" defer></script>
+  </body>
+</html>
