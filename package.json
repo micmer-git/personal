@@ -1,0 +1,24 @@
+{
+  "name": "valle-seriana-chronicles",
+  "version": "1.0.0",
+  "description": "Gioco online pixel-art ambientato in Valle Seriana con lore storica multi-epoca e NPC LLM.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/game.js"
+  },
+  "keywords": [
+    "game",
+    "pixel-art",
+    "valle-seriana",
+    "bergamo",
+    "llm",
+    "groq"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
